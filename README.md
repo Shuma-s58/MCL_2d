@@ -7,6 +7,9 @@
 ![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif)
 ![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif)
 
+## expression
+$\alpha$
+
 ## Notation
 
 | Notation | Code Representation | Description |
