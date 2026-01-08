@@ -11,7 +11,7 @@
 $\alpha$
 
 ## function
-* 信念分布$b_t$
+* 信念分布 $b_t$  
 $b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)$
 
 ## Notation
