@@ -20,6 +20,10 @@ L_j(x|z) = \eta p_j(z|x)
          = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
 $$
 
+$$
+L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
+$$
+
 * 尤度方法
 
 $$
