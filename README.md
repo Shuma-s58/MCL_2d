@@ -10,11 +10,17 @@
 ## expression
 $\alpha$
 
+## function
+$\p_t(x|x_t, u_(1:t), z_(1:t)) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)$
+
 ## Notation
 
-| Notation | Code Representation | Description |
-|----------|---------------------|-------------|
-|$\alpha$  |                     |test         |
+| Notation | Code Representation | Description    |
+|----------|---------------------|----------------|
+|$\x$      |                     |ロボットの姿勢  |
+|$\u$      |                     |制御指令値      |
+|$\z$      |                     |センサ値のリスト|
+
 
 ## Reference
 -   『詳解 確率ロボティクス ― Pythonによる基礎アルゴリズムの実装 ―』著者:上田隆一　講談社〈KS理工学専門書〉、2019年、ISBN 978-406-51-7006-9
