@@ -19,6 +19,8 @@ $$
 L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
 $$
 
+* 尤度方法
+
 $$
 Q_j(x) = \begin{pmatrix} l_j(x)\sigma_l & 0 // 0 & \sigma_\phi^2 \end{pmatrix}
 $$
