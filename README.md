@@ -23,6 +23,26 @@ $u = \begin{pmatrix} v' & \omega' \end{pmatrix}
     \begin{pmatrix} \delta_{vv} \sqrt{|v| / \delta t} + \delta_{v \omega} \sqrt{|\omega| / \delta t} & \omega \\ 
                     \delta_{\omega v} \sqrt{|v| / \delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \delta t} & \omega \end{pmatrix}$
 
+\[
+\mathbf{u}
+=
+\underbrace{
+\begin{pmatrix}
+  v & \omega
+\end{pmatrix}
+}_{\text{nominal control}}
++
+\underbrace{
+\begin{pmatrix}
+  \delta_{vv} \sqrt{\lvert v \rvert / \delta t}
+  + \delta_{v\omega} \sqrt{\lvert \omega \rvert / \delta t}
+  \\
+  \delta_{\omega v} \sqrt{\lvert v \rvert / \delta t}
+  + \delta_{\omega\omega} \sqrt{\lvert \omega \rvert / \delta t}
+\end{pmatrix}
+}_{\text{noise term}}
+\]
+
 ## Notation
 
 | Notation | Code Representation | Description    |
