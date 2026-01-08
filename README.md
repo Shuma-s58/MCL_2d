@@ -19,8 +19,8 @@ $\delta_{ab} \sim \mathcal{N}(0, \sigma_{ab}^2)$
 
 
 $u = \begin{pmatrix} v' & \omega' \end{pmatrix} 
-  = \begin{pmatrix} v & \omega \end{pmatrix} 
-  + \begin{pmatrix} \delta_{vv} \sqrt{|v| / \delta t} + \delta_{v \omega} \sqrt{|\omega| / \delta t} & \omega \\ 
+  = \begin{pmatrix} v & \omega \end{pmatrix} +:
+    \begin{pmatrix} \delta_{vv} \sqrt{|v| / \delta t} + \delta_{v \omega} \sqrt{|\omega| / \delta t} & \omega \\ 
                     \delta_{\omega v} \sqrt{|v| / \delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \delta t} & \omega \end{pmatrix}$
 
 ## Notation
