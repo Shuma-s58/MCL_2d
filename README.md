@@ -14,8 +14,19 @@ $\alpha$
 * 信念分布 $b_t$  
 $b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)$
 
+* 尤度関数
+$$
+L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
+
+Q_j(x) = \begin{pmatrix} l_j(x)\sigma_l & 0 \\ 0 & \sigma_\phi^2 \end{pmatrix}
+$$
+
+
+
 * 雑音の大きさ
 $\delta_{ab} \sim \mathcal{N}(0, \sigma_{ab}^2)$
+
+* 雑音を加えた制御指令値 $v'$
 
 $$
 u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T 
@@ -23,6 +34,8 @@ u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T
     \begin{pmatrix} \delta_{vv} \sqrt{|v| / \Delta t} + \delta_{v \omega} \sqrt{|\omega| / \Delta t} \\ 
                     \delta_{\omega v} \sqrt{|v| / \Delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \Delta t} \end{pmatrix}
 $$
+
+
 
 ## Notation
 
