@@ -14,6 +14,10 @@ $\alpha$
 * 信念分布 $b_t$  
 $b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)$
 
+#雑音の大きさ
+$\delta_{ab} ~ N(0, \sigma_{ab}^2)$
+
+
 ## Notation
 
 | Notation | Code Representation | Description    |
@@ -22,11 +26,11 @@ $b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z
 |$u$      |                      |制御指令値      |
 |$z$      |                      |センサ値のリスト|
 |---------|----------------------|----------------|
-|$\sigma_{ab}$|                  |                |
-|$\sigma_{vv}$|                  |                |
-|$\sigma_{v\omega}$|                  |                |
-|$\sigma_{\omegav}$|                  |                |
-|$\sigma_{v\omega}$|                  |                |
+|$\sigma_{ab}$|                  |bがaに与えるばらつきの標準偏差|
+|$\sigma_{vv}$|                  |直進1[m]で生じる道のりのばらつきの標準偏差|
+|$\sigma_{v\omega}$|                  |回転1[rad]で生じる道のりのばらつきの標準偏差|
+|$\sigma_{\omega v}$|                  |直進1[m]で生じる回転のばらつきの標準偏差|
+|$\sigma_{v\omega}$|                  |回転1[rad]で生じる回転のばらつきの標準偏差|
 
 
 ## Reference
