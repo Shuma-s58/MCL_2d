@@ -17,7 +17,8 @@ $b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z
 * 尤度関数
 
 $$
-L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
+L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)] ※  Q_j(x) = \begin{pmatrix} l_j(x)\sigma_l & 0 \\
+                                                                                           0 & \sigma_\phi^2 \end{pmatrix}
 $$
 
 * 尤度方法
