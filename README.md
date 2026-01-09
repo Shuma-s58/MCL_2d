@@ -11,14 +11,17 @@
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_observation.gif" width="250"><br>
       <b>ランドマーク観測なし</b>
+      <b></b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
-      <b>random.choiceを用いた//単純なリサンプリング</b>
+      <b>random.choiceを用いた</b>
+      <b>単純なリサンプリング</b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif" width="250"><br>
-      <b>系統サンプリングを用いたリサンプリング</b>
+      <b>系統サンプリングを用いた</b>
+      <b>リサンプリング</b>
     </td>
   </tr>
 </table>
