@@ -12,7 +12,9 @@ $\alpha$
 
 ## function
 * 信念分布 $b_t$  
-$b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)$
+$$
+b_t(x) = p_t(x|x_t, u_{1:t}, z_{1:t}) = p_t(x | x_0, u_0, u_1, ..., u_t, z_0, z_1, z_2, ..., z_t)
+$$
 
 * 尤度関数 $L_j$
 
@@ -28,9 +30,11 @@ $$
 
 
 * 雑音の大きさ
-$\delta_{ab} \sim \mathcal{N}(0, \sigma_{ab}^2)$
+$$
+\delta_{ab} \sim \mathcal{N}(0, \sigma_{ab}^2)
+$$
 
-* 雑音を加えた制御指令値 $v'$
+* 雑音を加えた制御指令値 $u'$
 
 $$
 u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T 
@@ -39,21 +43,27 @@ u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T
                     \delta_{\omega v} \sqrt{|v| / \Delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \Delta t} \end{pmatrix}
 $$
 
+* 各パーティクルの姿勢 $x_t^(i)$ における信念分布の密度 $b_t^(x_t^(i))$  
 
+$$
+b_t(x_t^(i)) = \hat{b}_t(x_t^(i)| z_{j,t}) = \eta p_j(z_{j,t}|x_t^(i)) \hat{b}_t(x_t^(i)) = \eta' L_j \hat{b}_t(x_t^(i)| z_{j,t}) \hat{b}_t(x_t^(i))
+$$
 
 ## Notation
 
-| Notation | Code Representation | Description    |
-|----------|---------------------|----------------|
-|$x$      |                      |ロボットの姿勢  |
-|$u$      |                      |制御指令値      |
-|$z$      |                      |センサ値のリスト|
-|---------|----------------------|----------------|
-|$\sigma_{ab}$|                  |bがaに与えるばらつきの標準偏差|
-|$\sigma_{vv}$|                  |直進1[m]で生じる道のりのばらつきの標準偏差|
-|$\sigma_{v\omega}$|                  |回転1[rad]で生じる道のりのばらつきの標準偏差|
-|$\sigma_{\omega v}$|                  |直進1[m]で生じる回転のばらつきの標準偏差|
-|$\sigma_{v\omega}$|                  |回転1[rad]で生じる回転のばらつきの標準偏差|
+| Notation | Description    |
+|----------|----------------|
+|$x$      |ロボットの姿勢  |
+|$u$      |制御指令値      |
+|$z$      |センサ値のリスト|
+|$m$      |ランドマーク    |
+|---------|----------------|
+|$\sigma_{ab}$|bがaに与えるばらつきの標準偏差|
+|$\sigma_{vv}$|直進1[m]で生じる道のりのばらつきの標準偏差|
+|$\sigma_{v\omega}$|回転1[rad]で生じる道のりのばらつきの標準偏差|
+|$\sigma_{\omega v}$|直進1[m]で生じる回転のばらつきの標準偏差|
+|$\sigma_{v\omega}$|回転1[rad]で生じる回転のばらつきの標準偏差|
+|||
 
 
 
