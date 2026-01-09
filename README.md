@@ -7,6 +7,25 @@
 ![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif)
 ![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif)
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_sampling.gif" width="250"><br>
+      <b>No Resampling</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
+      <b>Multinomial Resampling</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif" width="250"><br>
+      <b>Systematic Resampling</b>
+    </td>
+  </tr>
+</table>
+
+
+
 ## expression
 $\alpha$
 
