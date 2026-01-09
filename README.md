@@ -43,7 +43,7 @@ u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T
                     \delta_{\omega v} \sqrt{|v| / \Delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \Delta t} \end{pmatrix}
 $$
 
-* 各パーティクルの姿勢 $x_t^{(i)}$ における信念分布の密度 $b_t^(x_t^{(i)})$  
+* 各パーティクルの姿勢 $x_t^{(i)}$ における信念分布の密度 $b_t(x_t^{(i)})$  
 
 $$
 b_t(x_t^{(i)}) = \hat{b}_t(x_t^{(i)}| z_{j,t}) = \eta p_j(z_{j,t}|x_t^{(i)}) \hat{b}_t(x_t^{(i)}) = \eta' L_j \hat{b}_t(x_t^{(i)}| z_{j,t}) \hat{b}_t(x_t^{(i)})
