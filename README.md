@@ -3,19 +3,22 @@
 『詳解 確率ロボティクス ― Pythonによる基礎アルゴリズムの実装 ―』の第5章 パーティクルフィルタによる自己位置推定を参考に実装を行っている.
 
 
+## sample 
+ランドマーク観測なしの場合のパーティクルの様子と2種類の異なるリサンプリングを用いた場合のパーティクルの様子を示す.  
+※  ランドマーク = 星型のマーク
 <table>
   <tr>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_observation.gif" width="250"><br>
-      <b>No Observation</b>
+      <b>ランドマーク観測なし</b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
-      <b>Multinomial Resampling</b>
+      <b>random.choiceを用いた単純なリサンプリング</b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif" width="250"><br>
-      <b>Systematic Resampling</b>
+      <b>系統サンプリングを用いたリサンプリング</b>
     </td>
   </tr>
 </table>
