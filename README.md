@@ -10,7 +10,7 @@
   <tr>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_observation.gif" width="250"><br>
-      <p><b>ランドマーク観測なし</b></p> 
+      <b>ランドマーク観測なし</b><br><br> 
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
