@@ -3,10 +3,6 @@
 『詳解 確率ロボティクス ― Pythonによる基礎アルゴリズムの実装 ―』の第5章 パーティクルフィルタによる自己位置推定を参考に実装を行っている.
 
 
-![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_sampling.gif)
-![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif)
-![demo](https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif)
-
 <table>
   <tr>
     <td align="center">
@@ -26,10 +22,8 @@
 
 
 
-## expression
-$\alpha$
-
 ## function
+
 * 信念分布 $b_t$
   
 $$
