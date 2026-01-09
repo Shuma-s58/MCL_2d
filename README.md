@@ -6,8 +6,8 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_sampling.gif" width="250"><br>
-      <b>No Resampling</b>
+      <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/no_observation.gif" width="250"><br>
+      <b>No Observation</b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
