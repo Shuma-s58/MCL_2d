@@ -23,8 +23,8 @@ L_j(x|z) = \eta p_j(z|x) = \mathcal{N}[z = z_j|h_j(x), Q_j(x)]
 $$
 
 $$
-Q_j(x) = \begin{pmatrix} \ell_j(x)\sigma_\ell & 0 \\
-                          0 & \sigma_\phi^2 \end{pmatrix}
+Q_{j(x)} = \begin{pmatrix} \ell_{j(x)}\sigma_{\ell} & 0 \\
+                          0 & \sigma_{\varphi}^2 \end{pmatrix}
 $$
 
 
@@ -43,10 +43,10 @@ u' = \begin{pmatrix} v' \\ \omega' \end{pmatrix}^T
                     \delta_{\omega v} \sqrt{|v| / \Delta t} + \delta_{\omega \omega} \sqrt{|\omega| / \Delta t} \end{pmatrix}
 $$
 
-* 各パーティクルの姿勢 $x_t^(i)$ における信念分布の密度 $b_t^(x_t^(i))$  
+* 各パーティクルの姿勢 $x_t^{(i)}$ における信念分布の密度 $b_t^(x_t^{(i)})$  
 
 $$
-b_t(x_t^(i)) = \hat{b}_t(x_t^(i)| z_{j,t}) = \eta p_j(z_{j,t}|x_t^(i)) \hat{b}_t(x_t^(i)) = \eta' L_j \hat{b}_t(x_t^(i)| z_{j,t}) \hat{b}_t(x_t^(i))
+b_t(x_t^{(i)}) = \hat{b}_t(x_t^{(i)}| z_{j,t}) = \eta p_j(z_{j,t}|x_t^{(i)}) \hat{b}_t(x_t^{(i)}) = \eta' L_j \hat{b}_t(x_t^{(i)}| z_{j,t}) \hat{b}_t(x_t^{(i)})
 $$
 
 ## Notation
@@ -63,7 +63,8 @@ $$
 |$\sigma_{v\omega}$|回転1[rad]で生じる道のりのばらつきの標準偏差|
 |$\sigma_{\omega v}$|直進1[m]で生じる回転のばらつきの標準偏差|
 |$\sigma_{v\omega}$|回転1[rad]で生じる回転のばらつきの標準偏差|
-|||
+|$\sigma_{\ell}$||
+|$\sigma_{\varphi}$||
 
 
 
