@@ -14,7 +14,7 @@
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/simple_sampling.gif" width="250"><br>
-      <b>random.choiceを用いた単純なリサンプリング</b>
+      <b>random.choiceを用いた//単純なリサンプリング</b>
     </td>
     <td align="center">
       <img src="https://github.com/Shuma-s58/MCL_2d/blob/main/movies/systematic_sampling.gif" width="250"><br>
